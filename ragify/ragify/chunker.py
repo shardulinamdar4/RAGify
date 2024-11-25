@@ -19,7 +19,7 @@ def dynamic_chunking(text, chunk_size):
 
     return chunks
 
-def adaptive_overlap_chunking(text, chunk_size, overlap):
+def adaptive_overlap_chunking(text, chunk_size, overlap=10):
     """
     Implements adaptive overlapping chunking.
     """
